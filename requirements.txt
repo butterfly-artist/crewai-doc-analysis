@@ -1,0 +1,6 @@
+crewai
+langchain
+openai
+pypdf
+chromadb
+python-dotenv
