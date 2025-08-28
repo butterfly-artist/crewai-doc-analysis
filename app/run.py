@@ -6,7 +6,7 @@ from crew_setup import kickoff
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("hello this is yash")
+        print("hello this is doc analysis")
         sys.exit(1)
     input_path = sys.argv[1]
     if os.path.isdir(input_path):
