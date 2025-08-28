@@ -7,7 +7,7 @@ def load_pdf_text(path):
     pages = [p.extract_text() or "" for p in reader.pages]
     return "\n".join(pages)
 
-def chunk_text(text, chunk_size=1000, chunk_overlap=200):
+def chunk_text(text, chunk_size=300, chunk_overlap=30):
     splitter = CharacterTextSplitter(
         separator="\n",
         chunk_size=chunk_size,
